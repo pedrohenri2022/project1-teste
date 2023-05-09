@@ -1,0 +1,35 @@
+header {
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    align-self: center;
+}
+
+nav a {
+    display: none;
+}
+
+nav svg {
+    width: 48px;
+}
+
+.logo {
+    padding:7px 16px;
+
+}
+
+@media (min-width:426px) {
+    nav a {
+        display: block;
+    }
+
+    nav svg {
+        display:none
+    }
+}
+
+

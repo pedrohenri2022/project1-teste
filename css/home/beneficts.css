@@ -1,0 +1,37 @@
+.project1-title {
+    margin-top: 48px;
+}
+
+.beneficts-project1 img{
+    width: 100%;
+}
+
+.beneficts-project1-area-content-title {
+    display: flex;
+    margin:48px 0 26px 0;
+}
+
+.beneficts-project1-area-content-title h3{
+    align-self: center;
+    margin-left: 26px;
+}
+
+
+.beneficts-project1-area-content .button-yellow{
+    width: 40%;
+}
+
+
+@media (min-width:800px) {
+    .beneficts-project1 img{
+        width: 70%;
+    }
+
+    .beneficts-project1-area{
+        margin-left: 26px;
+    }
+
+    .beneficts-project1 {
+        display: flex;
+    }
+}

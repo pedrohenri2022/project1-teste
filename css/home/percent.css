@@ -1,0 +1,50 @@
+.percent-project1-content {
+    width:100%;
+    text-align: justify;
+    padding:16px;
+}
+
+.percent-project1-content p{
+    margin-top: 24px;
+    padding-bottom:32px;
+}
+
+.percent-project-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.percent-project-button .button-yellow,
+.percent-project-button .button-red{
+    width: 100%;
+}
+
+.yellow {
+    background-color: #F6BB33;
+    color: white;
+}
+
+@media (min-width:600px) {
+    .percent-project-button {
+        flex-direction: row;
+        margin-top: 48px;
+    }
+
+    .percent-project-button .button-yellow{
+        margin-right: 30px;
+    }
+    
+}
+
+@media (min-width:800px) {
+    .percent-project-area {
+        display: flex;
+    }
+
+    .percent-project1-content {
+        width:34%;
+    }
+
+}

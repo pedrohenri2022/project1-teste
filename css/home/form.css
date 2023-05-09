@@ -1,0 +1,31 @@
+.form-project-title {
+    text-align: center;
+} 
+
+.form-project1 form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 14px;
+}
+
+.form-project1 input{
+    padding: 18px 14px;
+    width: 100%;
+    border: 1px solid #C2BCBB;
+    margin: 24px;
+}
+
+.form-project1 .button-yellow {
+    width: 100%;
+}
+
+@media (min-width:600px) {
+    .footer-project1-area-logo {
+        border: 1px solid white;
+    }
+    .form-project1 {
+        padding:0 150px;
+    }
+}

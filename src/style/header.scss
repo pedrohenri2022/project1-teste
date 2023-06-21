@@ -1,0 +1,55 @@
+.burguershot-menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 7px 16px;
+    .burguershot-link {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .burguershot-dropdown {
+        position: relative;
+        display: inline-block;
+        .burguershot-dropdown-content {
+          display: none;
+          position: absolute;
+          background: #f9f9f9;
+          min-width:160px;
+          z-index: 1;
+          &:hover {
+            display: block;
+          }
+          a {
+            display: block;
+            padding: 12px 16px;
+            text-decoration: none;
+            &:hover{
+              background-color: #f1f1f1;
+            }
+          }
+        }
+      }
+      .burguershot-dropbtn {
+        display: none;
+        border:none;
+        background:transparent;
+        margin-right: 20px;
+        cursor: pointer;
+        &:hover {
+          color: blue;
+        }
+      }
+    }
+}
+
+@media (min-width: 426px) {
+  .burguershot-menu {
+    .burguershot-link {
+      .burguershot-dropbtn {
+        display:block;
+      }
+      svg {
+        display: none;
+      }
+    }
+  }
+}

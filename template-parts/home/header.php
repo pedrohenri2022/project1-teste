@@ -1,5 +1,5 @@
-<header>
-    <div class="logo">
+<header class="burguershot-menu">
+    <div class="burguershot-logo">
         <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <rect width="34" height="34" fill="url(#pattern0)"/>
             <defs>
@@ -10,11 +10,28 @@
             </defs>
         </svg>
     </div>
-    <nav>
-        <a href="#">Endereço</a>
-        <a href="#">Endereço</a>
-        <a href="#">Produto</a>
-        <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 30 30" width="30px" height="30px"><path d="M 3 7 A 1.0001 1.0001 0 1 0 3 9 L 27 9 A 1.0001 1.0001 0 1 0 27 7 L 3 7 z M 3 14 A 1.0001 1.0001 0 1 0 3 16 L 27 16 A 1.0001 1.0001 0 1 0 27 14 L 3 14 z M 3 21 A 1.0001 1.0001 0 1 0 3 23 L 27 23 A 1.0001 1.0001 0 1 0 27 21 L 3 21 z"/></svg>
+    <nav class="burguershot-link">
+      <div class="burguershot-dropdown">
+        <button class="burguershot-dropbtn">Promoções</button>
+        <div class="burguershot-dropdown-content">
+          <a href="#">Super smash burguer</a>
+          <a href="#">Shot salad egg burguer</a>
+          <a href="#">x-baccon burguer salad + fries + refri(refil)</a>
+          <a href="#">Shot burguer + fries + refri(refil)</a>
+          <a href="#">Baccon burguer + fries + refri(refil)</a>
+        </div>
+      </div>
+      <div class="burguershot-dropdown">  
+        <button class="burguershot-dropbtn">Cardapio</button>
+        <div class="burguershot-dropdown-content">
+          <a href="#">Salad</a>
+          <a href="#">Burguer</a>
+          <a href="#">Drink</a>
+          <a href="#">Drink(non-alcoholic)</a>
+          <a href="#">Accompaniments</a>
+        </div>
+      </div>
+      <button class="burguershot-dropbtn">Sobre nós</button>
+      <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 30 30" width="30px" height="30px"><path d="M 3 7 A 1.0001 1.0001 0 1 0 3 9 L 27 9 A 1.0001 1.0001 0 1 0 27 7 L 3 7 z M 3 14 A 1.0001 1.0001 0 1 0 3 16 L 27 16 A 1.0001 1.0001 0 1 0 27 14 L 3 14 z M 3 21 A 1.0001 1.0001 0 1 0 3 23 L 27 23 A 1.0001 1.0001 0 1 0 27 21 L 3 21 z"/></svg>
     </nav>
-
 </header>
